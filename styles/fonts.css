@@ -1,0 +1,45 @@
+@font-face {
+   font-family: "iranyekanwebmedium";
+   src: local("iranyekanwebmedium"),
+      url("../fonts/woff/iranyekanwebmedium.woff") format("woff");
+}
+@font-face {
+   font-family: "iranyekanwebregular";
+   src: local("iranyekanwebregular"),
+      url("../fonts/woff/iranyekanwebregular.woff") format("woff");
+}
+@font-face {
+   font-family: "YekanBakhBold";
+   src: local("YekanBakhBold"),
+      url("../fonts/woff/YekanBakhBold.woff") format("woff");
+}
+@font-face {
+   font-family: "YekanBakhHeavy";
+   src: local("YekanBakhHeavy"),
+      url("../fonts/woff/YekanBakhHeavy.woff") format("woff");
+}
+@font-face {
+   font-family: "YekanBakhMedium";
+   src: local("YekanBakhMedium"),
+      url("../fonts/woff/YekanBakhMedium.woff") format("woff");
+}
+
+@font-face {
+   font-family: "IRANYekanXFaNum-Bold";
+   src: local("IRANYekanXFaNum-Bold"),
+      url("../fonts/ttf/IRANYekanXFaNum-Bold.ttf") format("truetype");
+}
+@font-face {
+   font-family: "IRANYekanXFaNum-Medium";
+   src: local("IRANYekanXFaNum-Medium"),
+      url("../fonts/ttf/IRANYekanXFaNum-Medium.ttf") format("truetype");
+}
+@font-face {
+   font-family: "Roboto-Regular";
+   src: local("Roboto-Regular"),
+      url("../fonts/ttf/Roboto-Regular.ttf") format("truetype");
+}
+@font-face {
+   font-family: "ZarinPal";
+   src: local("ZarinPal"), url("../fonts/ttf/ZarinPal.ttf") format("truetype");
+}
