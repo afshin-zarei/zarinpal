@@ -5,9 +5,14 @@
    outline: none;
    border: none;
 }
+
+body {
+   letter-spacing: -0.03125rem;
+}
+
 ::-webkit-scrollbar-thumb {
    border: 10px;
-   background-color: silver;
+   background-color: #c0c0c0;
 }
 .borderLess {
    position: relative;
@@ -32,8 +37,7 @@
 
 .heading {
    font-family: "IRANYekanXFaNum-Bold";
-   font-size: 1rem;
-   letter-spacing: 0.03125rem;
+   font-size: 1.125rem;
    line-height: 1rem;
    color: #fff;
 }
@@ -41,16 +45,21 @@
    display: flex;
    align-items: center;
    gap: 4px;
-   padding: 0.05rem 0.3rem 0.05rem 0.1rem;
-   background-color: #ffffff40;
+   padding: 0.1rem 0.4rem 0.1rem 0.1rem;
+   background-color: #505050;
    backdrop-filter: blur(10px);
    border-radius: 1.5rem;
    cursor: pointer;
+   transition: all 100ms;
+}
+
+.btnClick:hover {
+   background-color: #ffffff60;
 }
 
 .label {
    font-family: "IRANYekanXFaNum-Medium";
-   font-size: 0.5rem;
+   font-size: 0.625rem;
    color: #fff;
 }
 
