@@ -10,10 +10,17 @@ body {
    letter-spacing: -0.03125rem;
 }
 
+ul {
+   list-style-type: none;
+}
+
 ::-webkit-scrollbar-thumb {
    border: 10px;
    background-color: #c0c0c0;
 }
+
+/* Banner */
+
 .borderLess {
    position: relative;
    display: block;
@@ -77,3 +84,17 @@ body {
    background-color: #fff;
    border-radius: 50%;
 }
+
+/* Header */
+
+.container {
+   width: 73.125rem;
+   margin: auto;
+}
+
+.header {
+   display: flex;
+   
+}
+
+
